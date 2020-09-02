@@ -1,0 +1,17 @@
+user
+stephentorku
+GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin19)
+Copyright (C) 2007 Free Software Foundation, Inc.
+vs code version info
+1.47.3
+91899dcef7b8110878ea59626991a18c8a6a1b3e
+x64
+git version 2.15.0
+git user name
+Stephen Torku
+git user email
+stephantorku18@gmail.com
+node version
+v14.5.0
+npm version
+6.14.5
