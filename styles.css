@@ -11,12 +11,11 @@
     color: #f4f4f4;
 }
 .navbar a:hover{
-    text-decoration: underline;
-    color: red;
+    color: #6ab0d5;
 }
 
 .active{
-    border-bottom:3px solid #DBCC52 ;
+    border-bottom:3px solid #6ab0d5 ;
     transition-duration: 0.4s;
 }
 
