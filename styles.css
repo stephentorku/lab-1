@@ -15,6 +15,12 @@
     color: red;
 }
 
+.active{
+    border-bottom:3px solid #DBCC52 ;
+    transition-duration: 0.4s;
+}
+
+
 
 /* .navv{
     color: #f4f4f4;
@@ -28,7 +34,3 @@
 } */
 
 
-.active{
-    text-decoration: underline;
-    color: red;
-}
