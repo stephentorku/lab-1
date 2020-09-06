@@ -17,7 +17,7 @@
 .navv:hover{
     background-color:red;
 }
-.navv:active{
+.navv a:active{
     background-color:red;
 }
 
