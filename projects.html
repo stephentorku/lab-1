@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Torku's Portfolio </title>
+    <title>Document</title>
     <link href="/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -15,18 +15,26 @@
         <a class = "navv" href = "skills.html" style="margin: 0 0 0 10px;">SKILLS</a>
         <a class = "navv" href = "interests.html" style="margin: 0 0 0 10px;">INTERESTS</a>
     </div>
-    <h1 style="text-align: center;">Stephen Torku</h1>
-    <div style="background-color: #6ab0d5; color: white; padding-top: 2%; padding-bottom: 2%; padding-left: 2%;">
-        <h2>Hello!</h2>
-    <p style="font-weight: lighter; line-height: 35px; font-size: 30px;">
-        Welcome to my Portfolio Page.I live in Ghana, I major in Computer Science at Ashesi University & I like mathematics. I am from Ghana.<br>
-        Do well to scroll through my page to know more about me!      
-    </p>
+    <h3>Projects completed</h3>
+    <div style="background-color: #6ab0d5; padding: 3% 0 3% 0;">
+    <table style="line-height: 30px;"> 
+        <tr>
+            <th>Project Name</th>
+            <th>Project Description</th>
+        </tr>
+        <tr>
+            <td>1. Inventory Management System</td>
+            <td>A java-written application which utilized Hashtables and arrays in order to optimize runtime. The application stores the inventory of the shop
+                and also performs transactions and prints out a reciept for the buyer. 
+            </td>
+        </tr>
+        <tr>
+            <td>2. Database for libraries </td>
+            <td>A database purposefully written for libraries to track books borrowed by students, as well as the conditions upon return</td>
+        </tr>
+        
+    </table>
     </div>
-    <div>
-    <img src="/images/successful.jpg" alt = "motivation" height="380px" style="display:block; margin: 0 auto; ">
-    <!-- <p style="text-align: center">I believe that I have to be successful to satisfy all my needs in life</p> -->
-</div>
 </body>
 <footer style="background-color: #6ab0d5;">
     <h3 style="text-align: center; padding-top: 1%; color: #f4f4f4;">Connect With Stephen</h3>
@@ -46,8 +54,6 @@
     .navbar a{
         text-decoration: none;
     }
-    
-    
 
     #navv:hover{
         color:#6ab0d5;
@@ -57,8 +63,11 @@
     }
 
     #navv:active{
-        text-decoration: underline;
-
+        background-color: #6ab0d5;
+    }
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
     }
 </style> -->
 </html>

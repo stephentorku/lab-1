@@ -1,0 +1,25 @@
+.navbar{
+        
+    text-align: center; background-color: #003078; padding-top: 1%; padding-bottom: 1%; 
+}
+
+/* .navbar a{
+    text-decoration: none;
+} */
+
+
+.navv{
+    color: #f4f4f4;
+}
+
+.navv:hover a{
+    background-color:red;
+}
+.navv:active a{
+    background-color:red;
+}
+
+
+/* .active{
+    text-decoration: underline;
+} */
