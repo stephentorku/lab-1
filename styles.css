@@ -14,10 +14,10 @@
     color: #f4f4f4;
 }
 
-.navv:hover a{
+.navv:hover{
     background-color:red;
 }
-.navv:active a{
+.navv:active{
     background-color:red;
 }
 
