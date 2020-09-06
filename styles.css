@@ -3,20 +3,26 @@
     background-color: #003078;
     padding-top: 1%; 
     padding-bottom: 1%; 
+    color: #f4f4f4;
 }
 
 .navbar a{
     text-decoration: none;
-}
-
-
-.navv{
     color: #f4f4f4;
 }
-
-.navv:hover{
-    background-color:red;
+.navbar a:hover{
+    text-decoration: underline;
+    color: red;
 }
+
+
+/* .navv{
+    color: #f4f4f4;
+} */
+
+/* .navv:hover{
+    background-color:red;
+} */
 /* .navv a:active{
     background-color:red;
 } */
@@ -24,4 +30,5 @@
 
 .active{
     text-decoration: underline;
+    color: red;
 }
